@@ -109,6 +109,7 @@ experiences:
           - Monitoring and alerting with prometheus,alertmanager,opsgenie
           - AWS EKS cluster provisioning with Terraform (eks module with launchtemplate)
           - On-call duty
+
           Technologies stack:
           Configuration management: Ansible,Terraform,Terragrunt,Terratest
           Container management systems: Kubernetes(provisioned by kubespray on bare-metal),EKS(terraform),Rancher(rke)
@@ -130,6 +131,7 @@ experiences:
           - Plan sprints and roadmap for the infrastructure team
           - Support VMware Harbor, Drone CI, Jenkins, AWX tools
           - Introduce incident management process with Amixr
+
           Technologies stack:
           Configuration management: Ansible,AWX
           Container management systems: Hashicorp Nomad
@@ -150,7 +152,8 @@ experiences:
           - Fork Go open-source projects for Kubernetes and made some changes in them
           - Support CI of iOS and Android builds in Jenkins (Fastlane)
           - Operations on-call rotation during business hours
-          Environment:
+
+          Technologies stack:
           Jenkins,Ansible,Kubernetes,Docker,Prometheus,Pipelines,Fastlane,AWS (EC2,S3,EFS,Route 53,RDS)
       - role: Ops Teamleader
         time: May 2016 - Sep 2017
