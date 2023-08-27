@@ -8,51 +8,48 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Anton Leanenka
+    tagline: Infrastructure platform engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: leonenko.anton@gmail.com
+    phone:
+    timezone: Europe
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    website:
+    linkedin: anton-leanenka-34423487
+    xing:
+    github: leonenkoa
+    telegram: leonenkoanton
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:
+    stack-overflow:
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    goodreads:
+    pdf:
 
     languages:
       title: Languages
       info:
         - idiom: English
+          level: Professional
+
+        - idiom: Polish
+          level: Elementary
+
+        - idiom: Russian
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
+        - item: Running
 
-        - item: Snowboarding
-          link:
+        - item: Coffee
 
         - item: Cooking
-          link:
 
 career-profile:
     title: Career Profile
@@ -63,203 +60,150 @@ career-profile:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
+      Infrastructure platform engineer with 9+ years of experience building, testing, and maintaining infrastructure and tools to allow
+      for the speedy development and release of software with a focus on security, reliability, and scalability;
+      passionate about data-driven decisions and building a culture of continuous improvement.
+      Proficient at coding and troubleshooting as required by the company to resolve issues in code.
+      Self-motivated, hardworking, team player, skilled at communication, and passionate about quickly learning new technologies
+      and methodologies.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Infrastructure engineer
+        time: Mar 2021 - Present
+        company: Flo Health Inc.
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - AWS cloud management (S3,EC2,ALB,RDS,DMS,DynamoDB,Backup,Cognito,Secretsmanager,Athena,Route53,Cloudtrail,MSK,ECR,SSO)
+          - AWS EKS clusters management(AWS ALB controller,external-dns,cluster-autoscaler,kube-resource-report,cilium,kube-downscaler,aws-node-termination,velero,ebs csi,efs csi)
+          - Terraform(modules and providers development, contribution to aws-terraform provider and other 3rd party providers,monolith splitting,terragrunt)
+          - Helm(common chart development and testing which deploy company services to EKS, helm wrapper development)
+          - Prometheus(prometheus operator + grafana cloud prometheus stack, high cardinality mitigation)
+          - Sloth(prometheus based SLO implementation)
+          - Opsgenie(terraform module development for adoption across company)
+          - Site24x7(terraform provider and module development for synthetic monitoring and opsgenie integration)
+          - Sentry(on-premise in EKS, custom helm chart development, terraform module development)
+          - Opentelemetry collector(Elastic Cloud as backend for traces)
+          - Fluentd & AWS Opensearch
+          - Bitbucket(pipelines, terraform module for management,custom self-hosted runners)
+          - Cloudflare(WAF,Warp tunnel,DNS)
+          - Airflow(DAGs development on python)
+          - Looker(dashboards for KPIs)
+          - AWS cost management(DAG for cost alerts by team,service)
+          - Buildx(building amd64 and arm docker images)
+          - Backstage(installation,upgrades)
+          - Jellyfish(engineering KPIs gathering)
+          - Snyk(security quality gates in pipelines)
+          - Orca
+          - Vanta
+          - 1password(terraform provider and module)
+          - Okta(SSO identity provider)
+          - Nexus(on-premise)
+          - Loki(small setup for infra logs)
+          - ADR framework
+      - role: Site Reliability Engineer
+        time: Mar 2020 - Feb 2021
+        company: Evolution
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Support company on-premise infrastructure
+          - Develop and support Ansible playbooks
+          - Develop kubernetes CSI LVM plugin on Go
+          - Monitoring and alerting with prometheus,alertmanager,opsgenie
+          - AWS EKS cluster provisioning with Terraform (eks module with launchtemplate)
+          - On-call duty
+          Technologies stack:
+          Configuration management: Ansible,Terraform,Terragrunt,Terratest
+          Container management systems: Kubernetes(provisioned by kubespray on bare-metal),EKS(terraform),Rancher(rke)
+          Programming languages: Go,Python
+          Monitoring: Prometheus in federation mode,Grafana,Alertmanager,Opsgenie
+          Log management: Elasticsearch,Rsyslog,Logstash,Kafka,Kibana
+          Kubernetes operators: Operator-framework,Kubebuilder,CSI
+      - role: Software Engineer
+        time: May 2018 - Mar 2020
+        company: Affise - performance marketing software
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Develop and support Ansible playbooks for microservices deployment in docker,
+          - Develop and support Ansible playbooks for databases,cache,message queues provisioning
+          - Develop and support control plane for Envoy proxy on Go
+          - Develop infrastructure services on Go
+          - Migration to Hashicorp Nomad container orchestration system
+          - Monitoring and alerting with prometheus,alertmanager and grafana
+          - Holding daily meetings for the distributed team
+          - Plan sprints and roadmap for the infrastructure team
+          - Support VMware Harbor, Drone CI, Jenkins, AWX tools
+          - Introduce incident management process with Amixr
+          Technologies stack:
+          Configuration management: Ansible,AWX
+          Container management systems: Hashicorp Nomad
+          Service Discovery: Hashicorp Consul
+          Programming languages: Go,Python
+          Monitoring: Prometheus,Grafana,Alertmanager,Amixr
+          Log management: Elasticsearch,Rsyslog,Filebeat,Kafka,Kibana
+          CI/CD: Drone CI,Jenkins
+          Proxy: Envoy
+          Development: custom control plane for Envoy with Consul backend
+      - role: Senior Systems Engineer
+        time: Oct 2017 - May 2018
+        company: EPAM Systems
+        details: |
+          - Support 4 Kubernetes clusters on-premise and in AWS
+          - Implement and support Jenkins pipeline for microservices deployment to Kubernetes
+          - Monitoring with prometheus of all Kubernetes clusters and microservices in them
+          - Fork Go open-source projects for Kubernetes and made some changes in them
+          - Support CI of iOS and Android builds in Jenkins (Fastlane)
+          - Operations on-call rotation during business hours
+          Environment:
+          Jenkins,Ansible,Kubernetes,Docker,Prometheus,Pipelines,Fastlane,AWS (EC2,S3,EFS,Route 53,RDS)
+      - role: Ops Teamleader
+        time: May 2016 - Sep 2017
+        company: Playtika
+        details: |
+          - Recruited and managed the team of 6 DevOps Engineers and 1 DBA
+          - Service owner of high-load gambling project based on PHP, Java, Flash, MySQL, Redis, Couchbase, Flume stack
+          - Planned and introduced ITIL operation processes from scratch (based on ServiceNow)
+          - Designed and supervised implementation of CI/CD: TeamCity, Jenkins, Ansible, Python, Bash, Nolio, Rundeck, Artifactory
+          - Participated in technical solutions architecture on high-load gambling project
+      - role: Senior Systems Engineer
+        time: Sep 2014 - Apr 2016
+        company: EPAM Systems
+        details: |
+          - Chef cookbooks development
+          - L2 support JAVA based applications
+          - Release management
+          - Change management
+          - On-duty shifts participation
+      - role: System Administrator/Build engineer
+        time: Mar 2011 - Sep 2014
+        company: Isida-Informatica
+        details: |
+          - Support Windows,MacOS,Linux desktop workstations
+          - Creation and support of an office local network for 60 computers
+          - Maintenance of 2 racks of own servers with FreeBSD,Linux and Windows
+          - Create and support maven and ant build scripts for Java and PHP projects
 
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
     title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     contributions:
-      - title: Tempo
+      - title: Terraform AWS provider
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "aws-terraform-provider "
 
-      - title: Atom
+      - title: Site24x7 Terraform provider
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "site24x7-terraform-provider"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
