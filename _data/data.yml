@@ -1,6 +1,7 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
+theme_skin: ceramic
 
 sidebar:
     position: right # position of the sidebar : left or right
@@ -15,13 +16,13 @@ sidebar:
     # Sidebar links
     email: leonenko.anton@gmail.com
     phone:
-    timezone: Europe
+    timezone: GMT+2
     citizenship:
     website:
     linkedin: anton-leanenka-34423487
     xing:
     github: leonenkoa
-    telegram: leonenkoanton
+    telegram:
     gitlab:
     bitbucket:
     twitter:
@@ -54,12 +55,6 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
       Infrastructure platform engineer with 9+ years of experience building, testing, and maintaining infrastructure and tools to allow
       for the speedy development and release of software with a focus on security, reliability, and scalability;
       passionate about data-driven decisions and building a culture of continuous improvement.
