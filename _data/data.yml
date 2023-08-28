@@ -34,11 +34,13 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Running
-
         - item: Coffee
 
-        - item: Vinyl
+        - item: Music
+
+        - item: Travelling
+
+        - item: Running
 
 career-profile:
     title: Career Profile
@@ -179,10 +181,6 @@ experiences:
             - Adopt Teamcity as CI
             - Adopt Mantis bugtracker
 
-certifications:
-
-projects:
-
 oss:
     title: OSS Contributions
     contributions:
@@ -197,12 +195,6 @@ oss:
       - title: Bitbucket Terraform provider
         link: "https://github.com/leonenkoa/terraform-provider-bitbucket/pull/1"
         tagline: "bitbucket-terraform-provider"
-
-publications:
-
-skills:
-    title: Skills &amp; Proficiency
-    toolset:
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
