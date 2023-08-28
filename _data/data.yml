@@ -155,6 +155,7 @@ experiences:
             - Planned and introduced ITIL operation processes from scratch (based on ServiceNow)
             - Designed and supervised implementation of CI/CD
             - Participated in technical solutions architecture on high-load gambling project
+
           **Technologies stack**:
             - TeamCity, Jenkins, Groovy pipelines, Ansible, Python, Bash, Nolio CA, Rundeck, Team management, ITIL, ServiceNow
       - role: Senior Systems Engineer
@@ -167,6 +168,7 @@ experiences:
             - Release management
             - Change management
             - On-duty shifts participation
+
           **Technologies stack**:
             - Chef, Ansible
       - role: System Administrator/Build engineer
@@ -186,15 +188,15 @@ oss:
     contributions:
       - title: Terraform AWS provider
         link: "https://github.com/hashicorp/terraform-provider-aws/pull/22074"
-        tagline: "aws-terraform-provider "
+        tagline: "golang,terraform,aws"
 
       - title: Site24x7 Terraform provider
         link: "https://github.com/site24x7/terraform-provider-site24x7/pulls?q=is%3Apr+is%3Aclosed+author%3Aleonenkoa"
-        tagline: "site24x7-terraform-provider"
+        tagline: "golang,terraform,site24x7"
 
       - title: Bitbucket Terraform provider
         link: "https://github.com/leonenkoa/terraform-provider-bitbucket/pull/1"
-        tagline: "bitbucket-terraform-provider"
+        tagline: "golang,terraform,bitbucket"
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
