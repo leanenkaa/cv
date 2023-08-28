@@ -44,7 +44,7 @@ sidebar:
 
     skills:
       title: Skills
-      info:
+      toolset:
         - name: Terraform
 
         - name: AWS
@@ -71,7 +71,7 @@ experiences:
       - role: Infrastructure engineer
         time: Mar 2021 - Present
         company: Flo Health Inc.
-        website: flo.health
+        website: https://flo.health/
         details: |
           - AWS cloud management(S3,EC2,ALB,RDS,DMS,DynamoDB,Backup,Cognito,Secretsmanager,Athena,
             Route53,Cloudtrail,MSK,ECR,SSO)
@@ -104,7 +104,7 @@ experiences:
       - role: Site Reliability Engineer
         time: Mar 2020 - Feb 2021
         company: Evolution
-        website: www.evolution.com
+        website: https://www.evolution.com/
         details: |
           **What I’ve done in this position**:
             - Support company on-premise infrastructure
@@ -124,7 +124,7 @@ experiences:
       - role: Software Engineer
         time: May 2018 - Mar 2020
         company: Affise - performance marketing software
-        website: affise.com
+        website: https://affise.com/
         details: |
           **What I’ve done in this position**:
             - Develop and support Ansible playbooks for microservices deployment in docker
@@ -151,7 +151,7 @@ experiences:
       - role: Senior Systems Engineer
         time: Oct 2017 - May 2018
         company: EPAM Systems
-        website: epam.com
+        website: https://www.epam.com/
         details: |
           **What I’ve done in this position**:
             - Support 4 Kubernetes clusters on-premise and in AWS
@@ -166,7 +166,7 @@ experiences:
       - role: Ops Teamleader
         time: May 2016 - Sep 2017
         company: Playtika
-        website: playtika.com
+        website: https://www.playtika.com/
         details: |
           **What I’ve done in this position**:
             - Recruited and managed the team of 6 DevOps Engineers and 1 DBA
@@ -180,7 +180,7 @@ experiences:
       - role: Senior Systems Engineer
         time: Sep 2014 - Apr 2016
         company: EPAM Systems
-        website: epam.com
+        website: https://www.epam.com/
         details: |
           **What I’ve done in this position**:
             - Chef cookbooks development
@@ -194,7 +194,7 @@ experiences:
       - role: System Administrator/Build engineer
         time: Mar 2011 - Sep 2014
         company: Isida-Informatica
-        website: www.corrbee.com
+        website: https://www.corrbee.com/
         details: |
           **What I’ve done in this position**:
             - Support Windows,MacOS,Linux desktop workstations
