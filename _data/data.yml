@@ -73,7 +73,7 @@ experiences:
         company: Flo Health Inc.
         website: https://flo.health
         details: |
-          - AWS cloud management (S3,EC2,ALB,RDS,DMS,DynamoDB,Backup,Cognito,Secretsmanager,Athena,Route53,Cloudtrail,MSK,ECR,SSO)
+          - AWS cloud management(S3,EC2,ALB,RDS,DMS,DynamoDB,Backup,Cognito,Secretsmanager,Athena,Route53,Cloudtrail,MSK,ECR,SSO)
           - AWS EKS clusters management(AWS ALB controller,external-dns,cluster-autoscaler,kube-resource-report,cilium,kube-downscaler,aws-node-termination,velero,ebs csi,efs csi)
           - Terraform(modules and providers development, contribution to aws-terraform provider and other 3rd party providers,monolith splitting,terragrunt)
           - Helm(common chart development and testing which deploy company services to EKS, helm wrapper development)
