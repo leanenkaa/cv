@@ -43,8 +43,8 @@ sidebar:
         - item: Running
 
     skills:
-      title: Skills &amp; Proficiency
-      toolset:
+      title: Skills
+      info:
         - name: Terraform
 
         - name: AWS
@@ -71,9 +71,10 @@ experiences:
       - role: Infrastructure engineer
         time: Mar 2021 - Present
         company: Flo Health Inc.
-        website: https://flo.health
+        website: flo.health
         details: |
-          - AWS cloud management(S3,EC2,ALB,RDS,DMS,DynamoDB,Backup,Cognito,Secretsmanager,Athena,Route53,Cloudtrail,MSK,ECR,SSO)
+          - AWS cloud management(S3,EC2,ALB,RDS,DMS,DynamoDB,Backup,Cognito,Secretsmanager,Athena,
+            Route53,Cloudtrail,MSK,ECR,SSO)
           - AWS EKS clusters management(AWS ALB controller,external-dns,cluster-autoscaler,kube-resource-report,cilium,kube-downscaler,aws-node-termination,velero,ebs csi,efs csi)
           - Terraform(modules and providers development, contribution to aws-terraform provider and other 3rd party providers,monolith splitting,terragrunt)
           - Helm(common chart development and testing which deploy company services to EKS, helm wrapper development)
@@ -103,7 +104,7 @@ experiences:
       - role: Site Reliability Engineer
         time: Mar 2020 - Feb 2021
         company: Evolution
-        website: https://www.evolution.com
+        website: www.evolution.com
         details: |
           **What I’ve done in this position**:
             - Support company on-premise infrastructure
@@ -123,7 +124,7 @@ experiences:
       - role: Software Engineer
         time: May 2018 - Mar 2020
         company: Affise - performance marketing software
-        website: https://affise.com
+        website: affise.com
         details: |
           **What I’ve done in this position**:
             - Develop and support Ansible playbooks for microservices deployment in docker
@@ -150,7 +151,7 @@ experiences:
       - role: Senior Systems Engineer
         time: Oct 2017 - May 2018
         company: EPAM Systems
-        website: https://epam.com
+        website: epam.com
         details: |
           **What I’ve done in this position**:
             - Support 4 Kubernetes clusters on-premise and in AWS
@@ -165,7 +166,7 @@ experiences:
       - role: Ops Teamleader
         time: May 2016 - Sep 2017
         company: Playtika
-        website: https://playtika.com
+        website: playtika.com
         details: |
           **What I’ve done in this position**:
             - Recruited and managed the team of 6 DevOps Engineers and 1 DBA
@@ -179,7 +180,7 @@ experiences:
       - role: Senior Systems Engineer
         time: Sep 2014 - Apr 2016
         company: EPAM Systems
-        website: https://epam.com
+        website: epam.com
         details: |
           **What I’ve done in this position**:
             - Chef cookbooks development
@@ -193,7 +194,7 @@ experiences:
       - role: System Administrator/Build engineer
         time: Mar 2011 - Sep 2014
         company: Isida-Informatica
-        website: https://www.corrbee.com
+        website: www.corrbee.com
         details: |
           **What I’ve done in this position**:
             - Support Windows,MacOS,Linux desktop workstations
