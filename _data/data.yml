@@ -212,7 +212,7 @@ oss:
         tagline: "golang,terraform,aws"
 
       - title: Site24x7 Terraform provider
-        link: "https://github.com/site24x7/terraform-provider-site24x7/pulls?q=is%3Apr+is%3Aclosed+author%3Aleonenkoa"
+        link: "https://github.com/site24x7/terraform-provider-site24x7/pulls?q=is%3Apr+is%3Aclosed+author%3Aleanenkaa+"
         tagline: "golang,terraform,site24x7"
 
       - title: Bitbucket Terraform provider
