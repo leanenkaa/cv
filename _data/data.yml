@@ -58,7 +58,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Infrastructure platform engineer with 9+ years of experience building, testing, and maintaining infrastructure and tools to allow
+      Infrastructure platform engineer with 10+ years of experience building, testing, and maintaining infrastructure and tools to allow
       for the speedy development and release of software with a focus on security, reliability, and scalability;
       passionate about data-driven decisions and building a culture of continuous improvement.
       Proficient at coding and troubleshooting as required by the company to resolve issues in code.
@@ -68,8 +68,24 @@ career-profile:
 experiences:
     title: Experiences
     info:
+      - role: Site reliability engineer
+        time: Dec 2023 - present
+        company: Miro
+        website: https://miro.com/
+        details: |
+          - AWS
+          - Terraform
+          - Helm
+          - Victoriametrics
+          - Sloth
+          - Opsgenie
+          - Sentry Cloud
+          - Opentelemetry collector
+          - AWS Opensearch
+          - Github actions
+          - Jaeger
       - role: Infrastructure engineer
-        time: Mar 2021 - Present
+        time: Mar 2021 - Dec 2023
         company: Flo Health Inc.
         website: https://flo.health/
         details: |
