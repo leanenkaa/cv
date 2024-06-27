@@ -116,7 +116,8 @@ experiences:
         - On-call duty
 
       **Technologies stack**:
-        - Cloud: AWS(S3,EC2,ALB,RDS,DynamoDB,Backup,Cognito,Secretsmanager,Route53,Cloudtrail,MSK,ECR,SSO)
+        - Cloud: AWS(S3,EC2,ALB,RDS,DynamoDB,Backup,Cognito,Secretsmanager,Route53,
+          Cloudtrail,MSK,ECR,SSO)
         - Orchestration: AWS EKS(AWS ALB controller,external-dns,cluster-autoscaler,cilium,kube-downscaler,aws-node-termination,velero,ebs csi,efs csi)
         - IaC: Terraform, Terragrunt, Ansible
         - Observability: Prometheus operator, Grafana Cloud, Loki(on-premise), Sloth, Opsgenie, Site24x7, Sentry, Opentelemetry(Elastic Cloud as backend for traces), Fluentd, AWS Opensearch
@@ -136,7 +137,7 @@ experiences:
         - Develop and support Ansible playbooks
         - Develop kubernetes CSI LVM plugin on Go
         - Monitoring and alerting with prometheus,alertmanager,opsgenie
-        - AWS EKS cluster provisioning with Terraform (eks module with launchtemplate)
+        - AWS EKS cluster provisioning with Terraform (eks module)
         - On-call duty
 
       **Technologies stack**:
