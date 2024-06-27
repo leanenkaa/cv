@@ -79,20 +79,14 @@ experiences:
         - Prometheus alerts deployment system development
         - OpenTelemetry adoption across company
         - Migration to SaaS observability platform
+        - Prometheus exporters development
 
       **Technologies stack**:
-        - AWS
-        - Terraform
-        - Helm
-        - Victoriametrics
-        - Sloth
-        - Opsgenie
-        - Sentry Cloud
-        - Opentelemetry
-        - AWS Opensearch
-        - Github actions
-        - Jaeger
-        - Coralogix
+        - Cloud: AWS
+        - IaC: Terraform, Ansible
+        - CI/CD: Github actions, Helm, ArgoCD
+        - Observability: Victoriametrics, Sloth, Opsgenie, Sentry Cloud, Opentelemetry, AWS Opensearch, Coralogix, Jaeger
+        - Development: Go
   - role: Infrastructure engineer
     time: Mar 2021 - Dec 2023
     company: Flo Health Inc.
@@ -104,7 +98,7 @@ experiences:
         - Mitigation Promegtheus metrics high cardinality
         - Prometheus based SLO implementation
         - On-premise Sentry in EKS setup, custom helm chart development, terraform module development
-        - Site24x7 terraform provider development
+        - Site24x7 terraform provider and module development and opsgenie integration
         - Bitbucket pipelines, custom self-hosted runners management including MacOS runners, terraform provider and module development
         - Cloudflare WAF and DNS management
         - Airflow DAGs development
@@ -117,36 +111,19 @@ experiences:
         - Orca setup for security scanning
         - Vanta setup for security compliance
         - 1password terraform provider and module development
+        - On-call duty
 
       **Technologies stack**:
-        - AWS cloud management(S3,EC2,ALB,RDS,DMS,DynamoDB,Backup,Cognito,Secretsmanager,Athena,
-          Route53,Cloudtrail,MSK,ECR,SSO)
-        - AWS EKS clusters management(AWS ALB controller,external-dns,cluster-autoscaler,kube-resource-report,cilium,kube-downscaler,aws-node-termination,velero,ebs csi,efs csi)
-        - Terraform
-        - Helm
-        - Prometheus(Prometheus operator + Grafana Cloud)
-        - Sloth
-        - Opsgenie(terraform module development for adoption across company)
-        - Site24x7(terraform provider and module development for synthetic monitoring and opsgenie integration)
-        - Sentry
-        - Opentelemetry collector(Elastic Cloud as backend for traces)
-        - Fluentd
-        - AWS Opensearch
-        - Bitbucket
-        - Cloudflare
-        - Airflow
-        - Looker
-        - AWS cost management
-        - Buildx
-        - Backstage
-        - Jellyfish(engineering KPIs gathering)
-        - Snyk(security quality gates in pipelines)
-        - Orca
-        - Vanta
-        - 1password(terraform provider and module)
-        - Nexus(on-premise)
-        - Loki(small setup for infra logs)
-        - ADR framework
+        - Cloud: AWS(S3,EC2,ALB,RDS,DynamoDB,Backup,Cognito,Secretsmanager,Route53,Cloudtrail,MSK,ECR,SSO)
+        - Orchestration: AWS EKS(AWS ALB controller,external-dns,cluster-autoscaler,cilium,kube-downscaler,aws-node-termination,velero,ebs csi,efs csi)
+        - IaC: Terraform, Terragrunt, Ansible
+        - Observability: Prometheus operator, Grafana Cloud, Loki(on-premise), Sloth, Opsgenie, Site24x7, Sentry, Opentelemetry(Elastic Cloud as backend for traces), Fluentd, AWS Opensearch
+        - CI/CD: Bitbucket, Buildx, Helm, Nexus(on-premise)
+        - Data: Airflow, Looker, AWS Athena, AWS Glue, AWS DMS
+        - Cost management: AWS Cost Explorer, AWS Cost and Usage Report, AWS Cost Anomaly Detection, kube-resource-report
+        - DevEx: Backstage, Jellyfish(DORA metrics gathering)
+        - Development: Go,Python
+        - Security: Snyk, Orca, Vanta, Cloudflare(WAF, Warp, DNS), 1password
   - role: Site Reliability Engineer
     time: Mar 2020 - Feb 2021
     company: Evolution
@@ -161,12 +138,12 @@ experiences:
         - On-call duty
 
       **Technologies stack**:
-        - Configuration management: Ansible,Terraform,Terragrunt,Terratest
-        - Container management systems: Kubernetes(provisioned by kubespray on bare-metal),EKS(terraform),Rancher(rke)
-        - Programming languages: Go,Python
-        - Monitoring: Prometheus in federation mode,Grafana,Alertmanager,Opsgenie
-        - Log management: Elasticsearch,Rsyslog,Logstash,Kafka,Kibana
-        - Kubernetes operators: Operator-framework,Kubebuilder,CSI
+        - Cloud: AWS(S3,EC2,Secretsmanager,Route53,ECR)
+        - IaC: Ansible, Terraform, Terragrunt, Terratest
+        - Orchestration: Kubernetes(kubespray on bare-metal), EKS(terraform), Rancher(rke)
+        - Development: Go, Python
+        - Observability: Prometheus(federation mode), Grafana, Alertmanager, Opsgenie, Elasticsearch, Rsyslog, Logstash, Kafka, Kibana
+        - Kubernetes operators: Operator-framework, Kubebuilder, CSI
   - role: Software Engineer
     time: May 2018 - Mar 2020
     company: Affise - performance marketing software
@@ -175,7 +152,7 @@ experiences:
       **What I’ve done in this position**:
         - Develop and support Ansible playbooks for microservices deployment in docker
         - Develop and support Ansible playbooks for databases,cache,message queues provisioning
-        - Develop and support control plane for Envoy proxy on Go
+        - Develop and support custom control plane for Envoy proxy on Go
         - Develop infrastructure services on Go
         - Migration to Hashicorp Nomad container orchestration system
         - Monitoring and alerting with prometheus,alertmanager and grafana
@@ -185,15 +162,13 @@ experiences:
         - Introduce incident management process with Amixr
 
       **Technologies stack**:
-        - Configuration management: Ansible,AWX
-        - Container management systems: Hashicorp Nomad
+        - IaC: Ansible, AWX
+        - Orchestration: Hashicorp Nomad
         - Service Discovery: Hashicorp Consul
-        - Programming languages: Go,Python
-        - Monitoring: Prometheus,Grafana,Alertmanager,Amixr
-        - Log management: Elasticsearch,Rsyslog,Filebeat,Kafka,Kibana
-        - CI/CD: Drone CI,Jenkins
+        - Development: Go, Python
+        - Observability:: Prometheus, Grafana, Alertmanager, Amixr, Elasticsearch, Rsyslog, Filebeat, Kafka, Kibana
+        - CI/CD: Drone CI, Jenkins
         - Proxy: Envoy
-        - Development: custom control plane for Envoy with Consul backend
   - role: Senior Systems Engineer
     time: Oct 2017 - May 2018
     company: EPAM Systems
@@ -208,7 +183,11 @@ experiences:
         - Operations on-call rotation during business hours
 
       **Technologies stack**:
-        - Jenkins,Ansible,Kubernetes,Docker,Prometheus,Pipelines,Fastlane,AWS (EC2,S3,EFS,Route 53,RDS)
+        - Cloud: AWS (EC2,S3,EFS,Route 53,RDS)
+        - IaC: Ansible
+        - CI/CD: Jenkins, Fastlane
+        - Observability: Prometheus, AWS Elasticsearch
+        - Orchestration: Kubernetes
   - role: Ops Teamleader
     time: May 2016 - Sep 2017
     company: Playtika
@@ -222,7 +201,9 @@ experiences:
         - Participated in technical solutions architecture on high-load gambling project
 
       **Technologies stack**:
-        - TeamCity, Jenkins, Groovy pipelines, Ansible, Python, Bash, Nolio CA, Rundeck, Team management, ITIL, ServiceNow
+        - CI/CD: TeamCity, Jenkins, Groovy pipelines, Nolio CA, ServiceNow, Rundeck
+        - IaC: Ansible
+        - Development: Python, Bash
   - role: Senior Systems Engineer
     time: Sep 2014 - Apr 2016
     company: EPAM Systems
@@ -236,7 +217,9 @@ experiences:
         - On-duty shifts participation
 
       **Technologies stack**:
-        - Chef, Ansible
+        - IaC: Chef, Ansible
+        - CI/CD: Jenkins
+
   - role: System Administrator/Build engineer
     time: Mar 2011 - Sep 2014
     company: Isida-Informatica
@@ -244,11 +227,17 @@ experiences:
     details: |
       **What I’ve done in this position**:
         - Support Windows,MacOS,Linux desktop workstations
-        - Creation and support of an office local network for 80 computers
+        - Creation and support office local network for 80 computers
         - Maintenance of 2 racks of own servers with Solaris,FreeBSD,Linux and Windows
         - Create and support maven and ant build scripts for Java and PHP projects
         - Adopt Teamcity as CI
         - Adopt Mantis bugtracker
+
+      **Technologies stack**:
+        - IaC: Chef, Ansible
+        - CI/CD: TeamCity, Ant, Maven, Gradle
+        - Bugtracker: Mantis
+        - OS: Windows, MacOS, Linux, Solaris, FreeBSD
 
 oss:
   title: OSS Contributions
