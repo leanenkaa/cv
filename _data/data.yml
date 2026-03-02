@@ -47,6 +47,8 @@ sidebar:
   skills:
     title: Skills
     toolset:
+      - name: Golang
+
       - name: Terraform
 
       - name: AWS
@@ -57,193 +59,118 @@ sidebar:
 
       - name: OpenTelemetry
 
-      - name: Golang
-
 career-profile:
   title: Career Profile
   summary: |
-    Infrastructure platform engineer with 15+ years of experience building, testing, and maintaining infrastructure and tools to allow
-    for the speedy development and release of software with a focus on security, reliability, and scalability;
-    passionate about data-driven decisions and building a culture of continuous improvement.
-    Proficient at coding and troubleshooting as required by the company to resolve issues in code.
-    Self-motivated, hardworking, team player, skilled at communication, and passionate about quickly learning new technologies
-    and methodologies.
+    Infrastructure platform engineer with 15+ years of experience building developer tools, infrastructure platforms,
+    and observability systems at scale. Golang background — authored Terraform providers, Kubernetes
+    operators, custom control planes, and internal platform services. Proven ability to drive cross-company
+    platform adoption, from OpenTelemetry rollouts to on-call and observability systems migrations. 
+    Focused on reliability, scalability, and data-driven operational excellence.
 
 experiences:
   title: Experiences
   info:
-    - role: Site reliability engineer
+    - role: Site Reliability Engineer
       time: Dec 2023 - present
       company: Miro
       website: https://miro.com/
       details: |
-        **What I’ve done in this position**:
-          - Prometheus alerts deployment system development
-          - OpenTelemetry adoption across company
-          - Migration to SaaS observability platform
-          - Prometheus exporters development
-          - Migrate company on-call system from Opsgenie to IncidentIO
-          - Metrics data catalog system development
-          - Develop system for software components analysis
+        **What I've done in this position:**
+        - Built Prometheus alerts deployment system
+        - Built metrics data catalog in Go
+        - Led company-wide OpenTelemetry adoption; migrated observability stack to Coralogix SaaS
+        - Developed custom Prometheus exporters in Go for internal systems monitoring
+        - Migrated on-call from Opsgenie to IncidentIO; contributed to IncidentIO Terraform provider
+        - Built software components analysis system for services score tracking
 
-        **Technologies stack**:
-          - Cloud: AWS
-          - IaC: Terraform, Ansible
-          - CI/CD: Github actions, Helm, ArgoCD
-          - Observability: Victoriametrics, Sloth, Opsgenie, Sentry Cloud, Opentelemetry, AWS Opensearch, Coralogix, Jaeger, IncidentIO, Cloudzero
-          - Development: Go
-    - role: Infrastructure engineer
+        **Stack**: AWS, Terraform, GitHub Actions, Helm, ArgoCD, VictoriaMetrics, OpenTelemetry, Coralogix, Go
+    - role: Infrastructure Engineer
       time: Mar 2021 - Dec 2023
       company: Flo Health Inc.
       website: https://flo.health/
       details: |
-        **What I’ve done in this position**:
-          - Terraform modules and providers development, contribution to aws-terraform provider and other 3rd party providers,monolith splitting,terragrunt introduction
-          - Common helm chart development and testing which deploy company services to EKS, helm wrapper development
-          - Mitigation Promegtheus metrics high cardinality
-          - Prometheus based SLO implementation
-          - On-premise Sentry in EKS setup, custom helm chart development, terraform module development
-          - Site24x7 terraform provider and module development and opsgenie integration
-          - Bitbucket pipelines, custom self-hosted runners management including MacOS runners, terraform provider and module development
-          - Cloudflare WAF and DNS management
-          - Airflow DAGs development
-          - Looker dashboards development
-          - AWS cost management DAG development
-          - Buildx setup for multi-arch(amd64,arm64) docker images building
-          - Backstage installation, upgrades, plugins management
-          - OpenTelemetry collector setup for tracing pipeline
-          - Security quality gates in pipelines with Snyk
-          - Orca setup for security scanning
-          - Vanta setup for security compliance
-          - 1password terraform provider and module development
-          - On-call duty
+        **What I've done in this position:**
+        - Developed Terraform modules and custom providers in Go (Site24x7, Bitbucket, 1Password); contributed to official AWS Terraform provider
+        - Built common Helm chart with testing framework for EKS service deployments; developed Helm wrapper tooling
+        - Implemented Prometheus-based SLO framework (Sloth)
+        - Mitigated high-cardinality metrics issues
+        - Set up OpenTelemetry tracing pipeline
+        - Deployed and maintained on-premise Sentry on EKS
+        - Managed Bitbucket CI/CD pipelines with custom self-hosted runners (Linux, macOS) and security quality gates (Snyk)
+        - Maintained Backstage developer portal
+        - Built AWS cost management automation using Airflow DAGs and Looker dashboards
+        - Set up Buildx for multi-arch (amd64, arm64) Docker image building for Graviton migration
+        - Configured Orca and Vanta for security and compliance scanning
 
-        **Technologies stack**:
-          - Cloud: AWS(S3,EC2,ALB,RDS,DynamoDB,Backup,Cognito,Secretsmanager,Route53,
-            Cloudtrail,MSK,ECR,SSO)
-          - Orchestration: AWS EKS(AWS ALB controller,external-dns,cluster-autoscaler,cilium,kube-downscaler,aws-node-termination,velero,ebs csi,efs csi)
-          - IaC: Terraform, Terragrunt, Ansible
-          - Observability: Prometheus operator, Grafana Cloud, Loki(on-premise), Sloth, Opsgenie, Site24x7, Sentry, Opentelemetry(Elastic Cloud as backend for traces), Fluentd, AWS Opensearch
-          - CI/CD: Bitbucket, Buildx, Helm, Nexus(on-premise)
-          - Data: Airflow, Looker, AWS Athena, AWS Glue, AWS DMS
-          - Cost management: AWS Cost Explorer, AWS Cost and Usage Report, AWS Cost Anomaly Detection, kube-resource-report
-          - DevEx: Backstage, Jellyfish(DORA metrics gathering)
-          - Development: Go,Python
-          - Security: Snyk, Orca, Vanta, Cloudflare(WAF, Warp, DNS), 1password
+        **Stack**: AWS, Terraform, Terragrunt, Helm, Prometheus, Grafana Cloud, OpenTelemetry, Go, Python
     - role: Site Reliability Engineer
       time: Mar 2020 - Feb 2021
       company: Evolution
       website: https://www.evolution.com/
       details: |
-        **What I’ve done in this position**:
-          - Support company on-premise infrastructure
-          - Develop and support Ansible playbooks
-          - Develop kubernetes CSI LVM plugin on Go
-          - Monitoring and alerting with prometheus,alertmanager,opsgenie
-          - AWS EKS cluster provisioning with Terraform (eks module)
-          - On-call duty
+        **What I've done in this position:**
+        - Developed Kubernetes CSI LVM plugin in Go for on-premise storage provisioning
+        - Developed Ansible playbooks for infrastructure provisioning
+        - Managed hybrid infrastructure (bare-metal + AWS)
 
-        **Technologies stack**:
-          - Cloud: AWS(S3,EC2,Secretsmanager,Route53,ECR)
-          - IaC: Ansible, Terraform, Terragrunt, Terratest
-          - Orchestration: Kubernetes(kubespray on bare-metal), EKS(terraform), Rancher(rke)
-          - Development: Go, Python
-          - Observability: Prometheus(federation mode), Grafana, Alertmanager, Opsgenie, Elasticsearch, Rsyslog, Logstash, Kafka, Kibana
-          - Kubernetes operators: Operator-framework, Kubebuilder, CSI
+        **Stack**: Kubernetes (bare-metal + EKS), Terraform, Terragrunt, Ansible, Prometheus, CSI, Go, Python
     - role: Software Engineer
       time: May 2018 - Mar 2020
       company: Affise - performance marketing software
       website: https://affise.com/
       details: |
-        **What I’ve done in this position**:
-          - Develop and support Ansible playbooks for microservices deployment in docker
-          - Develop and support Ansible playbooks for databases,cache,message queues provisioning
-          - Develop and support custom control plane for Envoy proxy on Go
-          - Develop infrastructure services on Go
-          - Migration to Hashicorp Nomad container orchestration system
-          - Monitoring and alerting with prometheus,alertmanager and grafana
-          - Holding daily meetings for the distributed team
-          - Plan sprints and roadmap for the infrastructure team
-          - Support VMware Harbor, Drone CI, Jenkins, AWX tools
-          - Introduce incident management process with Amixr
+        **What I've done in this position:**
+        - Developed custom Envoy proxy control plane in Go for service mesh traffic management
+        - Built business logic production services in Go
+        - Developed Ansible playbooks for infrastructure and application deployment
+        - Led migration to Hashicorp Nomad orchestration
+        - Planned sprints and roadmap for infrastructure team; introduced incident management process
 
-        **Technologies stack**:
-          - IaC: Ansible, AWX
-          - Orchestration: Hashicorp Nomad
-          - Service Discovery: Hashicorp Consul
-          - Development: Go, Python
-          - Observability:: Prometheus, Grafana, Alertmanager, Amixr, Elasticsearch, Rsyslog, Filebeat, Kafka, Kibana
-          - CI/CD: Drone CI, Jenkins
-          - Proxy: Envoy
+        **Stack**: Go, Python, Hashicorp Nomad/Consul, Envoy, Ansible, AWS, Prometheus, Drone CI, Jenkins, ELK
     - role: Senior Systems Engineer
       time: Oct 2017 - May 2018
       company: EPAM Systems
       website: https://www.epam.com/
       details: |
-        **What I’ve done in this position**:
-          - Support 4 Kubernetes clusters on-premise and in AWS
-          - Implement and support Jenkins pipeline for microservices deployment to Kubernetes
-          - Monitoring with prometheus of all Kubernetes clusters and microservices in them
-          - Fork Go open-source projects for Kubernetes and made some changes in them
-          - Support CI of iOS and Android builds in Jenkins (Fastlane)
-          - Operations on-call rotation during business hours
+        **What I've done in this position:**
+        - Deployed and managed Kubernetes clusters (on-premise + AWS)
+        - Built Jenkins CI/CD pipelines for microservice and mobile (iOS/Android) deployments
+        - Contributed to Go-based Kubernetes tooling
+        - Implemented Prometheus monitoring across all clusters
 
-        **Technologies stack**:
-          - Cloud: AWS (EC2,S3,EFS,Route 53,RDS)
-          - IaC: Ansible
-          - CI/CD: Jenkins, Fastlane
-          - Observability: Prometheus, AWS Elasticsearch
-          - Orchestration: Kubernetes
+        **Stack**: AWS, Ansible, Kubernetes, Jenkins, Python, Bash, Prometheus, Fastlane, Go, ChatOps
     - role: Ops Teamleader
       time: May 2016 - Sep 2017
       company: Playtika
       website: https://www.playtika.com/
       details: |
-        **What I’ve done in this position**:
-          - Recruited and managed the team of 6 DevOps Engineers and 1 DBA
-          - Service owner of high-load gambling project based on PHP, Java, Flash, MySQL, Redis, Couchbase, Flume stack
-          - Planned and introduced ITIL operation processes from scratch (based on ServiceNow)
-          - Designed and supervised implementation of CI/CD
-          - Participated in technical solutions architecture on high-load gambling project
+        **What I've done in this position:**
+        - Built and managed team of 6 Ops Engineers and 1 DBA
+        - Designed CI/CD pipelines and introduced ITIL processes
+        - Participated in technical solutions architecture on high-load gambling project
 
-        **Technologies stack**:
-          - CI/CD: TeamCity, Jenkins, Groovy pipelines, Nolio CA, ServiceNow, Rundeck
-          - IaC: Ansible
-          - Development: Python, Bash
+        **Stack**: Ansible, Jenkins, Python, Bash, ServiceNow
     - role: Senior Systems Engineer
       time: Sep 2014 - Apr 2016
       company: EPAM Systems
       website: https://www.epam.com/
       details: |
-        **What I’ve done in this position**:
-          - Chef cookbooks development
-          - L2 support JAVA based applications
-          - Release management
-          - Change management
-          - On-duty shifts participation
+        **What I've done in this position:**
+        - Developed Chef and Ansible IaC
+        - Automated Java application builds and deployments
 
-        **Technologies stack**:
-          - IaC: Chef, Ansible
-          - CI/CD: Jenkins
-
-    - role: System Administrator/Build engineer
+        **Stack**: Chef, Ansible, Bash, Jenkins
+    - role: System Administrator / Build Engineer
       time: Mar 2011 - Sep 2014
       company: Isida-Informatica
       website: https://www.corrbee.com/
       details: |
-        **What I’ve done in this position**:
-          - Support Windows,MacOS,Linux desktop workstations
-          - Creation and support office local network for 80 computers
-          - Maintenance of 2 racks of own servers with Solaris,FreeBSD,Linux and Windows
-          - Create and support maven and ant build scripts for Java and PHP projects
-          - Adopt Teamcity as CI
-          - Adopt Mantis bugtracker
+        **What I've done in this position:**
+        - Managed bare-metal server infrastructure
+        - Adopted CI tooling and build automation
 
-        **Technologies stack**:
-          - IaC: Chef, Ansible
-          - CI/CD: TeamCity, Ant, Maven, Gradle
-          - Bugtracker: Mantis
-          - OS: Windows, MacOS, Linux, Solaris, FreeBSD
+        **Stack**: Linux, Solaris, FreeBSD, TeamCity, Maven, Ant, Gradle
 
 oss:
   title: OSS Contributions
