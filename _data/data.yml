@@ -77,14 +77,19 @@ experiences:
       website: https://miro.com/
       details: |
         **What I've done in this position:**
-        - Built Prometheus alerts deployment system
-        - Built metrics data catalog in Go
-        - Led company-wide OpenTelemetry adoption; migrated observability stack to Coralogix SaaS
-        - Developed custom Prometheus exporters in Go for internal systems monitoring
-        - Migrated on-call from Opsgenie to IncidentIO; contributed to IncidentIO Terraform provider
-        - Built software components analysis system for services score tracking
+        - Built alerts-as-code pipeline: migrated Terraform templated alerts to Helm-deployed PrometheusRules with pint/promtool/yamllint CI checks
+        - Led company-wide OpenTelemetry adoption: switched services from Jaeger to OTel Collector, decommissioned legacy Jaeger/Elasticsearch tracing, tuned tail-sampling collector autoscaling; migrated observability stack to Coralogix SaaS
+        - Supported team-owned JVM and Node.js libraries for OpenTelemetry instrumentation and unified logging adoption across services
+        - Migrated on-call from Opsgenie to incident.io via automated GitHub Actions workflow; authored Terraform module for schedules, rotations, escalation paths; contributed to incident.io Terraform provider
+        - Made Backstage the source of truth for on-call ownership with component-based alert routing
+        - Participated in company-wide Terraform refactoring: aligned modules with company standards, migrated observability infrastructure to new layered stack, designed reusable observability layers
+        - Rebuilt CloudWatch alerting SNS module and migrated service fleet off Slack notifications; built EventBridge/SNS relay routing RDS, ElastiCache and MSK health events to incident.io
+        - Reduced observability costs: unused metrics detection in Go (metrics catalog, Coralogix Metrics Usage API), histogram buckets and high-cardinality metrics cleanup, Coralogix quota usage alerting
+        - Contributed alerts and incidents triage to Easel, Miro's in-house AI [software factory](https://miro.com/articles/engineering/building-miro-software-factory/): built incident.io webhook intake and incident investigation agent posting decision-first summaries to incident channels, observability alert triage agent with memory of confirmed-benign alerts, weekly on-call handover automation
+        - Built software components analysis system for services score tracking; developed custom Prometheus exporters in Go
+        - Operated VictoriaMetrics, kube-prometheus-stack, Grafana and logging pipelines (Fluent Bit, Logstash, MSK)
 
-        **Stack**: AWS, Terraform, GitHub Actions, Helm, ArgoCD, VictoriaMetrics, OpenTelemetry, Coralogix, Go
+        **Stack**: AWS, Kubernetes (EKS), Terraform, Terragrunt, GitHub Actions, Helm, ArgoCD, Prometheus, VictoriaMetrics, Grafana, OpenTelemetry, Coralogix, Fluent Bit, Kafka (MSK), incident.io, Backstage, Go
     - role: Infrastructure Engineer
       time: Mar 2021 - Dec 2023
       company: Flo Health Inc.
